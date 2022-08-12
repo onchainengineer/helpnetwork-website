@@ -108,10 +108,10 @@ const Ecosystem = (props: Props) => {
   );
   return (
     <ItemGrid>
-      {applicationsToShow.map(({key, sheet, name, query}) => {
+      {applicationsToShow.map(({key, name, query}) => {
         const src = `/screenshots/${key}.png`;
         return (
-          <Link key={key} href={`/${key}${sheet ? `/${sheet}` : ''}${query ? `?${query}` : ''}`}>
+          <Link key={key} href={`/${key}${query ? `?${query}` : ''}`}>
             <a>
               <LinkItem>
                 <ItemImage>
