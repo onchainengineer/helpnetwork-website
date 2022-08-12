@@ -143,7 +143,6 @@ const Header = () => {
       <NavItem to="/">Home</NavItem>
       <NavItem to="/ecosystem">Ecosystem</NavItem>
       <NavItem to="/news">News</NavItem>
-      <NavItem to="/how-to-make-a-flow-map">How to make a flow map</NavItem>
       <div className="right-links">
         {/*<Away href="https://github.com/sponsors/onchainhub">*/}
         {/*  <LinkItem>*/}
