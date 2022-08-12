@@ -108,10 +108,10 @@ const Ecosystem = (props: Props) => {
   );
   return (
     <ItemGrid>
-      {toolingToShow.map(({key, sheet, name, query}) => {
+      {toolingToShow.map(({key, name}) => {
         const src = `/screenshots/${key}.png`;
         return (
-          <Link key={key} href={`/${key}${sheet ? `/${sheet}` : ''}${query ? `?${query}` : ''}`}>
+          <Link key={key} href={`/${key}`}>
             <a>
               <LinkItem>
                 <ItemImage>

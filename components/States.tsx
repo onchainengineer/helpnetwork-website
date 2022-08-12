@@ -108,10 +108,10 @@ const States = (props: Props) => {
   );
   return (
     <ItemGrid>
-      {statesToShow.map(({key, sheet, name, query}) => {
+      {statesToShow.map(({key, name, query}) => {
         const src = `/screenshots/${key}.png`;
         return (
-          <Link key={key} href={`/${key}${sheet ? `/${sheet}` : ''}${query ? `?${query}` : ''}`}>
+          <Link key={key} href={`/${key}${query ? `?${query}` : ''}`}>
             <a>
               <LinkItem>
                 <ItemImage>

@@ -108,10 +108,10 @@ const Valleys = (props: Props) => {
   );
   return (
     <ItemGrid>
-      {valleysToShow.map(({key, sheet, name, query}) => {
+      {valleysToShow.map(({key, name, query}) => {
         const src = `/screenshots/${key}.png`;
         return (
-          <Link key={key} href={`/${key}${sheet ? `/${sheet}` : ''}${query ? `?${query}` : ''}`}>
+          <Link key={key} href={`/${key}${query ? `?${query}` : ''}`}>
             <a>
               <LinkItem>
                 <ItemImage>
