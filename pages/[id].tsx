@@ -2,7 +2,7 @@ import * as React from 'react';
 import {useRouter} from 'next/router';
 import {SPREADSHEET_KEY_RE} from '../components/constants';
 import DefaultErrorPage from 'next/error';
-import Nav from '../components/Nav';
+import Header from '../components/Header';
 
 import GSheetsFlowMap from '../components/GSheetsFlowMap';
 
@@ -19,7 +19,7 @@ const FlowMapPage: React.FC<Props> = (props) => {
   if (spreadSheetKey && !new RegExp(SPREADSHEET_KEY_RE).test(spreadSheetKey)) {
     return (
       <>
-        <Nav />
+        <Header />
         <DefaultErrorPage statusCode={404} />
       </>
     );

@@ -1,0 +1,31 @@
+{
+  "aspectRatio": 1.3333333333333333,
+  "screenshotSizes": [1200],
+  "applications": [
+    {
+      "key": "Help Network",
+      "name": "Help Network Blockchain",
+      "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
+    },
+    {
+      "key": "Graphite",
+      "name": "Graphite - The Interchain Offline-Offchain Protocol",
+      "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
+    },
+    {
+      "key": "Ipseity",
+      "name": "Ipseity - One World. One Identity",
+      "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
+    },
+    {
+      "key": "CosmDocs",
+      "name": "CosmDocs- Programmable Legal Contracts",
+      "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
+    },
+    {
+      "key": "DESAR",
+      "name": "DESAR- Decentralized Surveillance And Autonomous Resilience",
+      "query": "v=46.719075,7.817990,7.51&a=0&d=1&c=0&lt=1&col=Default&f=45"
+    }
+  ]
+}

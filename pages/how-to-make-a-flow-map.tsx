@@ -126,7 +126,8 @@ const HowToPage: React.FC<Props> = (props) => {
           </li>
           <li>
             <h3>
-              <Link href="/in-browser">In-browser flow map</Link>
+              <Link href="/ecoverse
+            ">In-browser flow map</Link>
             </h3>
             <p>
               With this tool you can visualize OD-data directly in your browser without having to
@@ -134,16 +135,6 @@ const HowToPage: React.FC<Props> = (props) => {
             </p>
           </li>
         </ListOfTools>
-      </section>
-      <section>
-        <h2 id="need-help">Need help?</h2>
-        <p>
-          <Away href="https://spectrum.chat/flowmap-blue/general">Ask a question in the forum</Away>
-          ,{` `}
-          <Away href="https://github.com/FlowmapBlue/flowmap.blue/issues">submit an issue</Away>
-          {` or `}
-          <a href="mailto:ilya@boyandin.me?subject=FlowmapBlue">write me an email</a>.
-        </p>
       </section>
     </Layout>
   );

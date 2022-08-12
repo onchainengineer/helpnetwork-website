@@ -1,0 +1,18 @@
+{
+  "aspectRatio": 1.3333333333333333,
+  "screenshotSizes": [1200],
+  "tooling": [
+    {
+      "key": "Geo Coding",
+      "name": "Geo Coding Tool"
+    },
+    {
+      "key": "OD Matrix Coverter",
+      "name": "OD Matrix Coverter"
+    },
+    {
+      "key": "Map Creator",
+      "name": "In-browser Map Creator"
+    }
+  ]
+}

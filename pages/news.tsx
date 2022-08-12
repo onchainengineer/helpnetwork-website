@@ -12,7 +12,7 @@ const NewsPage: React.FC<Props> = (props) => {
       <section>
         <h1>News</h1>
         <Head>
-          <title>News – FlowmapBlue</title>
+          <title>News – Ecoverse</title>
         </Head>
         <News />
       </section>

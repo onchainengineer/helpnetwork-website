@@ -93,9 +93,6 @@ const ODMatrixConverter = () => {
         <TextArea growVertically={false} large={true} intent={Intent.PRIMARY} value={output} />
       </ConverterContainer>
       <br />
-      <section>
-        <p>You can copy-paste these data directly from and to your Google spreadsheet.</p>
-      </section>
     </Layout>
   );
 };

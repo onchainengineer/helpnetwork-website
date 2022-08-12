@@ -14,12 +14,13 @@ const Outer = styled.div`
 `;
 
 const NewsDate = styled.div`
-  color: ${Colors.GRAY3};
+  color: #f4f4f4;
   font-size: small;
   min-width: 100px;
 `;
 
 const NewsText = styled.div`
+  color: #ffffff;
   display: block;
 `;
 
@@ -35,170 +36,53 @@ type Props = {
 /* eslint-disable react/jsx-key */
 const NEWS_ITEMS = [
   <NewsItem>
-    <NewsDate>{`Jun 28, 2022`}</NewsDate>
+    <NewsDate>{`TBD`}</NewsDate>
     <NewsText>
-      <Away href="https://vis.gl/frameworks">FlowmapBlue is now part of the Vis.gl family</Away>
+    <Away href="#">CosmDocs</Away> Help Network Testnet Inception.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Sep 01, 2021`}</NewsDate>
+    <NewsDate>{`TBD`}</NewsDate>
     <NewsText>
-      <Away href="https://www.mapbox.com/showcase/flowmap-blue">Featured in Mapbox showcase</Away>
+    <Away href="#">DESAR</Away> Joins the Help Network Ecosystem.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Feb 25, 2021`}</NewsDate>
+    <NewsDate>{`TBD`}</NewsDate>
     <NewsText>
-      <Away href="https://www.producthunt.com/posts/flowmap-blue">
-        FlowmapBlue featured on ProductHunt
-      </Away>
+    <Away href="#">Quake Help State</Away> Inception.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Jul 01, 2020`}</NewsDate>
+    <NewsDate>{`TBD`}</NewsDate>
     <NewsText>
-      <Away href="https://github.com/FlowmapBlue/flowmapblue.R">FlowmapBlue R widget released</Away>
+    <Away href="#">Things Help Valley</Away> Inception.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Apr 26, 2020`}</NewsDate>
+    <NewsDate>{`TBD`}</NewsDate>
     <NewsText>
-      <Away href="https://tinyletter.com/flowmap-blue/letters/flowmap-blue-news-april-2020-timeline-support">
-        Timeline support, splitting datasets in parts, customising tooltips, fetching data from
-        another server
-      </Away>
+    <Away href="#">Carbon Help Valley</Away> Inception.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Feb 17, 2020`}</NewsDate>
+    <NewsDate>{`Aug 10, 2022`}</NewsDate>
     <NewsText>
-      <Away href="https://tinyletter.com/flowmap-blue/letters/flowmap-blue-news-feb-2020-new-features">
-        Lasso selection, camera rotation and tilting, new location/flow filtering modes
-      </Away>
+    Xtressials is now a 'Principal Member' of the <Away href="https://metaverse-standards.org">Metaverse Standards Forum.</Away>
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Jan 06, 2020`}</NewsDate>
+    <NewsDate>{`Jul 15, 2022`}</NewsDate>
     <NewsText>
-      The flow thickness and color scales now{' '}
-      <Away href="https://twitter.com/ilyabo/status/1213968896182669312">
-        automatically adapt to the viewport
-      </Away>
+    The Help Network <Away href="#">'Angel-01 Testnet'</Away> Launched.
     </NewsText>
   </NewsItem>,
   <NewsItem>
-    <NewsDate>{`Dec 25, 2019`}</NewsDate>
+    <NewsDate>{`May 15, 2022`}</NewsDate>
     <NewsText>
-      Added support for <Link href="/videos/sharing.mp4">sharing and embedding</Link>.
+    <Away href="https://github.com/onchainengineer/helpnetwork/commit/8ee6f4bc0568f7a9d8ca6799fde3a5092dcd7a95">First Commit</Away> Instantiated for the Help Network Blockchain.
     </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Nov 20, 2019`}</NewsDate>
-    <NewsText>
-      FlowmapBlue{' '}
-      <Away href="https://twitter.com/infobeautyaward/status/1197248080640380929">
-        won Bronze at the Information is Beautiful Awards
-      </Away>
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Nov 11, 2019`}</NewsDate>
-    <NewsText>
-      Added the <Link href="/in-browser">In-browser flow map</Link>
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Nov 10, 2019`}</NewsDate>
-    <NewsText>
-      Added the <Link href="/geocoding">Geocoding</Link> data preparation helper tool
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Nov 08, 2019`}</NewsDate>
-    <NewsText>
-      Added the <Link href="/od-matrix-converter">OD-matrix converter</Link> data preparation helper
-      tool
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Nov 05, 2019`}</NewsDate>
-    <NewsText>
-      Talk{' '}
-      <Away href="https://ilya.boyandin.me/talks/2019-11-05-on-data-and-design/">
-        “Visualizing mobility”
-      </Away>{' '}
-      at the{' '}
-      <Away href="https://www.meetup.com/ondataanddesign-Switzerland/events/265947767/">
-        “On data and design” meetup
-      </Away>{' '}
-      in Basel
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Oct 28, 2019`}</NewsDate>
-    <NewsText>
-      Added the fade slider to manually adjust the brightness of the arrows for better map
-      visibility
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Oct 26, 2019`}</NewsDate>
-    <NewsText>The dark mode is now enabled by default. Changed the home page appearance.</NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Oct 16, 2019`}</NewsDate>
-    <NewsText>
-      FlowmapBlue{' '}
-      <Away href="http://informationisbeautifulawards.com/showcase/3815-flowmap-blue">
-        made it to the shortlist
-      </Away>{' '}
-      of the Information is Beautiful Awards
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Oct 13, 2019`}</NewsDate>
-    <NewsText>
-      Talk{' '}
-      <Away href="https://ilya.boyandin.me/talks/2019-10-11-urban-mobility-symp/">
-        “Scalability of OD-data visualizations”
-      </Away>{' '}
-      about FlowmapBlue and{' '}
-      <Away href="https://github.com/teralytics/flowmap.query">flowmap.query</Away> at the{' '}
-      <Away href="https://www.citylab-berlin.org/events/mobilitysymposium_en/">
-        Urban Mobility Symposium
-      </Away>{' '}
-      in Berlin
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Sep 15, 2019`}</NewsDate>
-    <NewsText>Added color scheme and dark mode support</NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Mar 26, 2019`}</NewsDate>
-    <NewsText>Adding support for map styles</NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Mar 24, 2019`}</NewsDate>
-    <NewsText>Automatic clustering</NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Mar 03, 2019`}</NewsDate>
-    <NewsText>
-      <Away href="https://ilya.boyandin.me/talks/2019-03-03-clisel/">Talk about FlowmapBlue</Away>{' '}
-      at the workshop on{' '}
-      <Away href="https://clisel.eu/Ascona">Environmental Changes and Human Mobility</Away> in
-      Ascona
-    </NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Feb 08, 2019`}</NewsDate>
-    <NewsText>Added animation toggle</NewsText>
-  </NewsItem>,
-  <NewsItem>
-    <NewsDate>{`Jan 03, 2019`}</NewsDate>
-    <NewsText>First published online</NewsText>
-  </NewsItem>,
+  </NewsItem>
 ];
 /* eslint-enable react/jsx-key */
 

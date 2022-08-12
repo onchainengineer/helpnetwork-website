@@ -9,8 +9,7 @@ import News from '../components/News';
 import ReactPlayer from 'react-player';
 import Layout from '../core/Layout';
 import {USED_BY_LOGOS} from '../used-by';
-import Gallery from '../components/Gallery';
-import Credits from '../components/Credits';
+import Applications from '../components/Applications';
 
 const LogoTitle = styled.h1`
   margin-bottom: 1em;
@@ -34,7 +33,7 @@ const ListOfUsesItem = styled(({className, children}) => (
   margin: 5px;
 `;
 
-const GalleryPreviewOuter = styled.div`
+const ApplicationsPreviewOuter = styled.div`
   margin-bottom: 20px;
 `;
 
@@ -120,10 +119,10 @@ const Index = () => (
   <Layout>
     <TitleRow>
       <LogoTitle>
-        <Logo fontSize={35} collapseWidth={300} />
+      Help Network: The Blockchain Built For Climate Resilience
       </LogoTitle>
       <NewsletterOuter>
-        <form action="https://tinyletter.com/flowmap-blue" method="post" target="_blank">
+        <form action="https://tinyletter.com/onchainhub" method="post" target="_blank">
           <Column spacing={10}>
             <Row spacing={10}>
               <input
@@ -137,9 +136,9 @@ const Index = () => (
               <Button type="submit" text="Subscribe" />
             </Row>
             <NewsletterDescription>
-              Subscribe to the newsletter to learn about{' '}
-              <Away href="https://tinyletter.com/flowmap-blue/archive">
-                updates and new features
+              Subscribe to the newsletter to {' '}
+              <Away href="https://tinyletter.com/onchainhub/archive">
+               learn more
               </Away>
               .
             </NewsletterDescription>
@@ -152,7 +151,7 @@ const Index = () => (
       <ResponsivePlayer>
         <ResponsiveReactPlayer
           // url={['/videos/demo_500.webm', '/videos/demo_500.mp4']}
-          url="https://vimeo.com/378757494"
+          url="#"
           light={VideoPlaceholderImg.src}
           width="100%"
           height="100%"
@@ -161,100 +160,34 @@ const Index = () => (
           playing={true}
         />
       </ResponsivePlayer>
-    </DemoVideo>
+    </DemoVideo>   
 
     <section>
+      <p>Help Network is an open interoperable smart contracts platform optimized for climate first applications.</p>
+    </section>
+
+    <section>
+      <ApplicationsPreviewOuter>
+        <Applications maxCount={6} />
+      </ApplicationsPreviewOuter>
+      {/*<p>*/}
+      {/*  <Link href="/Applications">Visit our Applications</Link> to see more real world examples.*/}
+      {/*</p>*/}
+    </section>
+
+    <section>
+    <h2>Help States</h2>
       <p>Create geographic flow maps representing numbers of movements between locations.</p>
       <p>Visualize your own origin-destination data published in Google Sheets.</p>
       <p>Explore the data interactively.</p>
     </section>
 
     <section>
-      <h2>What is it for?</h2>
-      <div>
-        FlowmapBlue is used to visualize various real-world phenomena in which pairs of locations
-        are involved:
-        <ListOfUses>
-          <ListOfUsesItem>Urban mobility</ListOfUsesItem>
-          <ListOfUsesItem>Commuters</ListOfUsesItem>
-          <ListOfUsesItem>Pedestrian movement</ListOfUsesItem>
-          <ListOfUsesItem>Bus travels </ListOfUsesItem>
-          <ListOfUsesItem>Metro rides</ListOfUsesItem>
-          <ListOfUsesItem>Train rides</ListOfUsesItem>
-          <ListOfUsesItem>Air travels</ListOfUsesItem>
-          <ListOfUsesItem>Marine traffic</ListOfUsesItem>
-          <ListOfUsesItem>Bicycle sharing</ListOfUsesItem>
-          <ListOfUsesItem>Scooter sharing</ListOfUsesItem>
-          <ListOfUsesItem>Car ride sharing </ListOfUsesItem>
-          <ListOfUsesItem>Taxi rides</ListOfUsesItem>
-          <ListOfUsesItem>Internal migration</ListOfUsesItem>
-          <ListOfUsesItem>International migration</ListOfUsesItem>
-          <ListOfUsesItem>Refugees</ListOfUsesItem>
-          <ListOfUsesItem>Human trafficking </ListOfUsesItem>
-          <ListOfUsesItem>Drug flows </ListOfUsesItem>
-          <ListOfUsesItem>Freight transportation </ListOfUsesItem>
-          <ListOfUsesItem>Material flows</ListOfUsesItem>
-          <ListOfUsesItem>Trade </ListOfUsesItem>
-          <ListOfUsesItem>Bird migrations </ListOfUsesItem>
-          <ListOfUsesItem>Livestock movements </ListOfUsesItem>
-          <ListOfUsesItem>Plant migration</ListOfUsesItem>
-          <ListOfUsesItem>Urban infrastructure</ListOfUsesItem>
-          <ListOfUsesItem>Sewage flows</ListOfUsesItem>
-          <ListOfUsesItem>Waste management</ListOfUsesItem>
-          <ListOfUsesItem>Supply chain </ListOfUsesItem>
-          <ListOfUsesItem>Epidemiology</ListOfUsesItem>
-          <ListOfUsesItem>Historical journeys </ListOfUsesItem>
-          <ListOfUsesItem>Scientific collaborations</ListOfUsesItem>
-        </ListOfUses>
-      </div>
-      <GalleryPreviewOuter>
-        <Gallery maxCount={6} />
-      </GalleryPreviewOuter>
-      {/*<p>*/}
-      {/*  <Link href="/gallery">Visit our gallery</Link> to see more real world examples.*/}
-      {/*</p>*/}
+      <h2>Help Valleys</h2>
+      <p>Create geographic flow maps representing numbers of movements between locations.</p>
+      <p>Visualize your own origin-destination data published in Google Sheets.</p>
+      <p>Explore the data interactively.</p>
     </section>
-
-    <section>
-      <h2>Who is using it?</h2>
-      <UsedByContainer>
-        {USED_BY_LOGOS.map(({url, name, img, width = 120}) => (
-          <Away key={name} href={url}>
-            <Image
-              alt={name}
-              width={width}
-              height="50"
-              src={img}
-              placeholder="blur"
-              blurDataURL={img}
-              objectFit="contain"
-            />
-          </Away>
-        ))}
-      </UsedByContainer>
-    </section>
-
-    <section>
-      {/*How to make a flow map*/}
-      <h2 id="how-to">How to make a flow map?</h2>
-      <p>
-        Follow the steps <Link href="/how-to-make-a-flow-map">described on this page</Link>.
-      </p>
-    </section>
-
-    {/*<section>*/}
-    {/*  <h2>Data preparation helpers</h2>*/}
-    {/*  <p>*/}
-    {/*    <Button>Convert OD-matrix</Button>*/}
-    {/*  </p>*/}
-    {/*</section>*/}
-
-    <section>
-      <h2 id="news">Latest news</h2>
-      <News maxCount={5} />
-    </section>
-
-    <Credits showTitle={true} />
   </Layout>
 );
 

@@ -1,4 +1,4 @@
-import Nav from '../components/Nav';
+import Header from '../components/Header';
 import {Classes} from '@blueprintjs/core';
 import * as React from 'react';
 import styled from '@emotion/styled';
@@ -20,7 +20,7 @@ const Layout: React.FC<Props> = (props) => {
   const {children} = props;
   return (
     <>
-      <Nav />
+      <Header />
       <ContentBody className={Classes.DARK}>{children}</ContentBody>
     </>
   );

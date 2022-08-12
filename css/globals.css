@@ -1,7 +1,7 @@
 html,
 body {
     margin: 0;
-    background-color: rgb(35, 48, 66);
+    background-color: #161616;
 }
 
 body #__next {
@@ -20,12 +20,14 @@ body,
 
 a,
 a:visited {
-    color: #137cbd; /*ColorScheme.primary*/
+    color: #161616; /*ColorScheme.primary*/
 }
 
-.bp4-dark a,
+.bp4-dark a{
+    color: #78a9ff; /*BLUE5*/
+}
 .bp4-dark a:visited {
-    color: #8abbff; /*BLUE5*/
+    color: #78a9ff; /*BLUE5*/
 }
 
 #__next .mapboxgl-control-container a,
