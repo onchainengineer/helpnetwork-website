@@ -68,13 +68,13 @@ const NEWS_ITEMS = [
   <NewsItem>
     <NewsDate>{`Aug 10, 2022`}</NewsDate>
     <NewsText>
-    Xtressials is now a 'Principal Member' of the <Away href="https://metaverse-standards.org">Metaverse Standards Forum.</Away>
+    Xtressials is now a &apos;Principal Member&apos; of the <Away href="https://metaverse-standards.org">Metaverse Standards Forum.</Away>
     </NewsText>
   </NewsItem>,
   <NewsItem>
     <NewsDate>{`Jul 15, 2022`}</NewsDate>
     <NewsText>
-    The Help Network <Away href="#">'Angel-01 Testnet'</Away> Launched.
+    The Help Network <Away href="#">&apos;Angel-01 Testnet&apos;</Away> Launched.
     </NewsText>
   </NewsItem>,
   <NewsItem>
