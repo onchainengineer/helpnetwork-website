@@ -3,15 +3,15 @@
   "screenshotSizes": [1200],
   "tooling": [
     {
-      "key": "Geo Coding",
+      "key": "geocoding",
       "name": "Geo Coding Tool"
     },
     {
-      "key": "OD Matrix Coverter",
+      "key": "od-matrix-converter",
       "name": "OD Matrix Coverter"
     },
     {
-      "key": "Map Creator",
+      "key": "ecoverse",
       "name": "In-browser Map Creator"
     }
   ]
